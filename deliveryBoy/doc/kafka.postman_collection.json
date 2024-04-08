@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "96103d5e-8781-4496-a4c8-36baa04597c3",
+		"name": "kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "deliveryBoy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/location/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"location",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
